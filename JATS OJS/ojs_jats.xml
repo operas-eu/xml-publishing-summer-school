@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<article xmlns:xlink="http://www.w3.org/1999/xlink">
+<article  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://raw.githubusercontent.com https://raw.githubusercontent.com/phoenix-mossimo/xml-publishing-summer-school/main/JATS%20OJS/schema_ojs_1.xsd"
+  >
   <front>
     <article-meta>
       <title-group>

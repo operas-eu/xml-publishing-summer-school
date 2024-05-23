@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.openarchives.org/OAI/2.0/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:import schemaLocation="schema1.xsd" namespace="http://www.openarchives.org/OAI/2.0/oai_dc/" />
+    <xs:element name="OAI-PMH">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="responseDate" type="xs:dateTime" />
+                <xs:element name="request">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute name="verb" type="xs:string" use="required" />
+                                <xs:attribute name="metadataPrefix" type="xs:string" use="required" />
+                                <xs:attribute name="identifier" type="xs:string" use="required" />
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="GetRecord">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="record">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="header">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="identifier" type="xs:string" />
+                                                    <xs:element name="datestamp" type="xs:dateTime" />
+                                                    <xs:element name="setSpec" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="metadata">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element ref="oai_dc:dc" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

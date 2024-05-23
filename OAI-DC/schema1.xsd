@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema xmlns:tns="http://www.openarchives.org/OAI/2.0/oai_dc/" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:import schemaLocation="schema2.xsd" namespace="http://purl.org/dc/elements/1.1/" />
+    <xs:element name="dc">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q1="http://purl.org/dc/elements/1.1/" ref="q1:title" />
+                <xs:element xmlns:q2="http://purl.org/dc/elements/1.1/" ref="q2:creator" />
+                <xs:element maxOccurs="unbounded" xmlns:q3="http://purl.org/dc/elements/1.1/" ref="q3:subject" />
+                <xs:element xmlns:q4="http://purl.org/dc/elements/1.1/" ref="q4:description" />
+                <xs:element xmlns:q5="http://purl.org/dc/elements/1.1/" ref="q5:publisher" />
+                <xs:element xmlns:q6="http://purl.org/dc/elements/1.1/" ref="q6:date" />
+                <xs:element maxOccurs="unbounded" xmlns:q7="http://purl.org/dc/elements/1.1/" ref="q7:type" />
+                <xs:element xmlns:q8="http://purl.org/dc/elements/1.1/" ref="q8:format" />
+                <xs:element xmlns:q9="http://purl.org/dc/elements/1.1/" ref="q9:identifier" />
+                <xs:element maxOccurs="unbounded" xmlns:q10="http://purl.org/dc/elements/1.1/" ref="q10:source" />
+                <xs:element xmlns:q11="http://purl.org/dc/elements/1.1/" ref="q11:language" />
+                <xs:element xmlns:q12="http://purl.org/dc/elements/1.1/" ref="q12:relation" />
+                <xs:element maxOccurs="unbounded" xmlns:q13="http://purl.org/dc/elements/1.1/" ref="q13:rights" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
