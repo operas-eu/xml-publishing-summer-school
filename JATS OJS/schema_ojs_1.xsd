@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema xmlns:xlink="http://www.w3.org/1999/xlink" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:import schemaLocation="schema_ojs_0.xsd" namespace="http://www.w3.org/1999/xlink" />
+    <xs:element name="article">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="front">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="article-meta">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="title-group">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="article-title" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="contrib-group">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="contrib">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="name">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="given-names" type="xs:string" />
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="email" type="xs:string" />
+                                                                <xs:element name="xref">
+                                                                    <xs:complexType>
+                                                                        <xs:attribute name="ref-type" type="xs:string" use="required" />
+                                                                        <xs:attribute name="rid" type="xs:string" use="required" />
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                            <xs:attribute name="contrib-type" type="xs:string" use="required" />
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="content-type" type="xs:string" use="required" />
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="aff">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="institution" />
+                                                    <xs:element name="country" type="xs:string" />
+                                                </xs:sequence>
+                                                <xs:attribute name="id" type="xs:string" use="required" />
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="history">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="date">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="day" type="xs:unsignedByte" />
+                                                                <xs:element name="month" type="xs:unsignedByte" />
+                                                                <xs:element name="year" type="xs:unsignedShort" />
+                                                            </xs:sequence>
+                                                            <xs:attribute name="date-type" type="xs:string" use="required" />
+                                                            <xs:attribute name="iso-8601-date" type="xs:date" use="required" />
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="body">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="sec">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:choice maxOccurs="unbounded">
+                                            <xs:element name="title" type="xs:string" />
+                                            <xs:element name="p">
+                                                <xs:complexType mixed="true">
+                                                    <xs:sequence minOccurs="0">
+                                                        <xs:element maxOccurs="unbounded" name="bold">
+                                                            <xs:complexType mixed="true">
+                                                                <xs:sequence minOccurs="0">
+                                                                    <xs:element name="italic" type="xs:string" />
+                                                                </xs:sequence>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="sup" type="xs:string" />
+                                                        <xs:element name="sub" type="xs:string" />
+                                                    </xs:sequence>
+                                                </xs:complexType>
+                                            </xs:element>
+                                            <xs:element name="table-wrap">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:element name="table">
+                                                            <xs:complexType>
+                                                                <xs:sequence>
+                                                                    <xs:element maxOccurs="unbounded" name="tr">
+                                                                        <xs:complexType>
+                                                                            <xs:sequence>
+                                                                                <xs:element maxOccurs="unbounded" name="td">
+                                                                                    <xs:complexType mixed="true">
+                                                                                        <xs:sequence minOccurs="0">
+                                                                                            <xs:element maxOccurs="unbounded" name="bold">
+                                                                                                <xs:complexType mixed="true">
+                                                                                                    <xs:sequence minOccurs="0">
+                                                                                                        <xs:element name="italic">
+                                                                                                            <xs:complexType mixed="true">
+                                                                                                                <xs:sequence minOccurs="0">
+                                                                                                                    <xs:element name="sup" type="xs:string" />
+                                                                                                                </xs:sequence>
+                                                                                                            </xs:complexType>
+                                                                                                        </xs:element>
+                                                                                                    </xs:sequence>
+                                                                                                </xs:complexType>
+                                                                                            </xs:element>
+                                                                                        </xs:sequence>
+                                                                                        <xs:attribute name="colspan" type="xs:unsignedByte" use="optional" />
+                                                                                        <xs:attribute name="rowspan" type="xs:unsignedByte" use="optional" />
+                                                                                    </xs:complexType>
+                                                                                </xs:element>
+                                                                            </xs:sequence>
+                                                                        </xs:complexType>
+                                                                    </xs:element>
+                                                                </xs:sequence>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                    </xs:sequence>
+                                                    <xs:attribute name="id" type="xs:string" use="required" />
+                                                </xs:complexType>
+                                            </xs:element>
+                                            <xs:element maxOccurs="unbounded" name="sec">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:choice maxOccurs="unbounded">
+                                                            <xs:element name="title" type="xs:string" />
+                                                            <xs:element maxOccurs="unbounded" name="sec">
+                                                                <xs:complexType>
+                                                                    <xs:sequence>
+                                                                        <xs:element name="title" type="xs:string" />
+                                                                        <xs:element maxOccurs="unbounded" name="p" type="xs:string" />
+                                                                    </xs:sequence>
+                                                                    <xs:attribute name="id" type="xs:string" use="required" />
+                                                                </xs:complexType>
+                                                            </xs:element>
+                                                            <xs:element name="list">
+                                                                <xs:complexType>
+                                                                    <xs:sequence>
+                                                                        <xs:element maxOccurs="unbounded" name="list-item">
+                                                                            <xs:complexType>
+                                                                                <xs:sequence>
+                                                                                    <xs:element name="p" type="xs:string" />
+                                                                                    <xs:element minOccurs="0" name="list">
+                                                                                        <xs:complexType>
+                                                                                            <xs:sequence>
+                                                                                                <xs:element maxOccurs="unbounded" name="list-item">
+                                                                                                    <xs:complexType>
+                                                                                                        <xs:sequence>
+                                                                                                            <xs:element name="p" type="xs:string" />
+                                                                                                            <xs:element minOccurs="0" name="list">
+                                                                                                                <xs:complexType>
+                                                                                                                    <xs:sequence>
+                                                                                                                        <xs:element maxOccurs="unbounded" name="list-item">
+                                                                                                                            <xs:complexType>
+                                                                                                                                <xs:sequence>
+                                                                                                                                    <xs:element name="p" type="xs:string" />
+                                                                                                                                </xs:sequence>
+                                                                                                                            </xs:complexType>
+                                                                                                                        </xs:element>
+                                                                                                                    </xs:sequence>
+                                                                                                                    <xs:attribute name="list-type" type="xs:string" use="required" />
+                                                                                                                </xs:complexType>
+                                                                                                            </xs:element>
+                                                                                                        </xs:sequence>
+                                                                                                    </xs:complexType>
+                                                                                                </xs:element>
+                                                                                            </xs:sequence>
+                                                                                            <xs:attribute name="list-type" type="xs:string" use="required" />
+                                                                                        </xs:complexType>
+                                                                                    </xs:element>
+                                                                                </xs:sequence>
+                                                                            </xs:complexType>
+                                                                        </xs:element>
+                                                                    </xs:sequence>
+                                                                    <xs:attribute name="list-type" type="xs:string" use="required" />
+                                                                </xs:complexType>
+                                                            </xs:element>
+                                                            <xs:element maxOccurs="unbounded" name="p">
+                                                                <xs:complexType mixed="true">
+                                                                    <xs:sequence minOccurs="0">
+                                                                        <xs:element name="bold" type="xs:string" />
+                                                                    </xs:sequence>
+                                                                </xs:complexType>
+                                                            </xs:element>
+                                                        </xs:choice>
+                                                    </xs:sequence>
+                                                    <xs:attribute name="id" type="xs:string" use="required" />
+                                                </xs:complexType>
+                                            </xs:element>
+                                            <xs:element name="fig">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:element name="graphic">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="mimetype" type="xs:string" use="required" />
+                                                                <xs:attribute name="mime-subtype" type="xs:string" use="required" />
+                                                                <xs:attribute ref="xlink:href" use="required" />
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                    </xs:sequence>
+                                                    <xs:attribute name="id" type="xs:string" use="required" />
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:choice>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:string" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="back" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
