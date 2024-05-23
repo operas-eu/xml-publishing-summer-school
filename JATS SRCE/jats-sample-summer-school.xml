@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.1" article-type="research-article">
+<article 	xmlns:xlink="http://www.w3.org/1999/xlink"
+        	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        	xsi:schemaLocation="https://raw.githubusercontent.com/phoenix-mossimo/xml-publishing-summer-school/main https://raw.githubusercontent.com/phoenix-mossimo/xml-publishing-summer-school/main/JATS%20SRCE/schema1.xsd"
+        	>
   <front>
     <journal-meta>
       <journal-id journal-id-type="doi">DOI-1234</journal-id>
