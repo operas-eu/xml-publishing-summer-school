@@ -395,7 +395,6 @@
         </xs:element>
         <xs:element name="back" />
       </xs:sequence>
-      <xs:attribute name="dtd-version" type="xs:decimal" use="required" />
       <xs:attribute name="article-type" type="xs:string" use="required" />
     </xs:complexType>
   </xs:element>
