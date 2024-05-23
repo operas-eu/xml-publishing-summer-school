@@ -2,8 +2,8 @@
 <?xml-stylesheet type="text/xsl" href="https://cyberpsychology.eu/lib/pkp/xml/oai2.xsl" ?>
 <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
-    http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    xsi:schemaLocation="https://raw.githubusercontent.com
+    https://raw.githubusercontent.com/phoenix-mossimo/xml-publishing-summer-school/main/OAI-DC/schema0.xsd">
     <responseDate>2024-05-23T10:27:12Z</responseDate>
     <request verb="GetRecord" metadataPrefix="oai_dc" identifier="oai:ojs.journals.muni.cz:article/4199">https://cyberpsychology.eu/oai</request>
     <GetRecord>
