@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://cyberpsychology.eu/lib/pkp/xml/oai2.xsl" ?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+    http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2024-05-23T13:31:24Z</responseDate>
+    <request verb="GetRecord" metadataPrefix="oai_openaire_jats" identifier="oai:ojs.journals.muni.cz:article/36754">https://cyberpsychology.eu/oai</request>
+    <GetRecord>
+        <record>
+            <header>
+                <identifier>oai:ojs.journals.muni.cz:article/36754</identifier>
+                <datestamp>2024-04-11T11:25:35Z</datestamp>
+                <setSpec>cyberpsychology:ART</setSpec>
+            </header>
+            <metadata>                
+                <article dtd-version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://jats.nlm.nih.gov/publishing/0.4/xsd/JATS-journalpublishing0.xsd">
+                    <front>
+                        <journal-meta>
+                            <journal-id journal-id-type="ojs">cyberpsychology</journal-id>
+                            <journal-title-group>
+                                <journal-title xml:lang="en">Cyberpsychology: Journal of Psychosocial Research on Cyberspace</journal-title>
+                                <trans-title-group xml:lang="cs"><trans-title>Cyberpsychology: Journal of Psychosocial Research on Cyberspace</trans-title></trans-title-group>
+                                <abbrev-journal-title xml:lang="en">Cyberpsychology</abbrev-journal-title>
+                            </journal-title-group>
+                            <issn pub-type="epub">1802-7962</issn>
+                            <publisher><publisher-name>Masaryk University, Faculty of Social Studies</publisher-name></publisher>
+                        </journal-meta>
+                        <article-meta>
+                            <article-id pub-id-type="publisher-id">36754</article-id>
+                            <article-id pub-id-type="doi">10.5817/CP2024-2-1</article-id>
+                            <article-categories><subj-group xml:lang="en_US" subj-group-type="heading"><subject>Articles</subject></subj-group></article-categories>
+                            <title-group>
+                                <article-title xml:lang="en">I’ll be there for you? The bystander intervention model and cyber aggression</article-title>
+                            </title-group>
+                            <contrib-group content-type="author">
+                                <contrib >
+                                    <name name-style="western">
+                                        <surname>Karasavva</surname>
+                                        <given-names>Vasileia</given-names>
+                                    </name>
+                                    <xref ref-type="aff" rid="aff-1" />
+                                    <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-0778-8454</contrib-id>
+                                </contrib>
+                                <contrib >
+                                    <name name-style="western">
+                                        <surname>Mikami</surname>
+                                        <given-names>Amori</given-names>
+                                    </name>
+                                    <xref ref-type="aff" rid="aff-1" />
+                                    <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-5821-0674</contrib-id>
+                                </contrib>
+                            </contrib-group>
+                            <aff id="aff-1"><institution content-type="orgname">Department of Psychology, University of British Columbia, Vancouver, BC, Canada</institution></aff>
+                            <pub-date date-type="pub" publication-format="epub">
+                                <day>11</day>
+                                <month>04</month>
+                                <year>2024</year>
+                            </pub-date>
+                            <volume>18</volume>
+                            <issue>2</issue>
+                            <permissions>
+                                <copyright-statement>Copyright © 2024 Vasileia Karasavva, Amori Mikami</copyright-statement>
+                                <copyright-year>2024</copyright-year>
+                                <copyright-holder>Vasileia Karasavva, Amori Mikami</copyright-holder>
+                                <license xlink:href="https://creativecommons.org/licenses/by-sa/4.0">
+                                    <license-p>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</license-p>
+                                </license>
+                                <ali:free_to_read xmlns:ali="http://www.niso.org/schemas/ali/1.0" />
+                            </permissions>
+                            <self-uri xlink:href="https://cyberpsychology.eu/article/view/36754" />
+                            <self-uri content-type="application/pdf" xlink:href="https://cyberpsychology.eu/article/download/36754/32534" />
+                            <kwd-group xml:lang="en">
+                                <kwd>cyber aggression</kwd>
+                                <kwd>Bystander Intervention Model</kwd>
+                                <kwd>helping</kwd>
+                                <kwd>cyberbullying</kwd>
+                            </kwd-group>
+                            <abstract xml:lang="en"><p>
+                                The Bystander Intervention Model (BIM) has been validated for face-to-face emergencies and dictates that observers’ decision to intervene hinges on five sequential steps, while barriers block progress between steps. The current study is the first, to our knowledge, to apply the BIM in its entirety to cyber aggression and explore the ways that individual factors such as experiences with depression, social anxiety, and cyber aggression either as the target or the aggressor influence bystanders. In our pre-registered study, emerging adults (N = 1,093) viewed pilot-tested cyber aggressive content and reported how they would engage with each of the steps and barriers of the BIM, if they were observing this content as a bystander in real life. Regarding the actions they would take, most participants chose non-intervention (36.3%) or private direct intervention (39.4%). Path analysis suggested that overall, the BIM can explain bystanders’ responses to cyber aggression. Nonetheless, there were some discrepancies with prior work on face-to-face emergencies, specifically that cyber bystander intervention does not appear to be as linear. As well, in contrast to the face-to-face applications of the BIM that prescribes barriers to affect only a single specific step, here we found some barriers were negatively linked to multiple steps. These findings elucidate ways in which cyber aggression in the online context may be similar to, as well as different from, aggression that occurs face-to-face. Implications of these findings for interventions are discussed.
+                            </p></abstract>
+                            <custom-meta-group>
+                                <custom-meta specific-use="access-right">
+                                    <meta-name>open access</meta-name>
+                                    <meta-value>http://purl.org/coar/access_right/c_abf2</meta-value>
+                                </custom-meta>
+                                <custom-meta specific-use="resource-type">
+                                    <meta-name>research article</meta-name>
+                                    <meta-value>http://purl.org/coar/resource_type/c_2df8fbb1</meta-value>
+                                </custom-meta>
+                            </custom-meta-group>
+                        </article-meta>
+                    </front>
+                </article>			</metadata>
+        </record>
+    </GetRecord>
+</OAI-PMH>

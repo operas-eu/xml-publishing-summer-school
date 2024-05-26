@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://cyberpsychology.eu/lib/pkp/xml/oai2.xsl" ?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+    http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2024-05-23T13:54:26Z</responseDate>
+    <request verb="GetRecord" metadataPrefix="rfc1807" identifier="oai:ojs.journals.muni.cz:article/36754">https://cyberpsychology.eu/oai</request>
+    <GetRecord>
+        <record>
+            <header>
+                <identifier>oai:ojs.journals.muni.cz:article/36754</identifier>
+                <datestamp>2024-04-11T11:25:35Z</datestamp>
+                <setSpec>cyberpsychology:ART</setSpec>
+            </header>
+            <metadata>
+                <rfc1807
+                    xmlns="http://info.internet.isi.edu:80/in-notes/rfc/files/rfc1807.txt"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://info.internet.isi.edu:80/in-notes/rfc/files/rfc1807.txt
+                    http://www.openarchives.org/OAI/1.1/rfc1807.xsd">
+                    <bib-version>v2</bib-version>
+                    <id>https://cyberpsychology.eu/article/view/36754</id>
+                    <entry>2024-04-11T11:25:35Z</entry>
+                    <organization>M</organization>
+                    <organization>Vol. 18 No. 2 (2024)</organization>
+                    <title>I’ll be there for you? The bystander intervention model and cyber aggression</title>
+                    <type>research articles</type>
+                    <author>Karasavva, Vasileia; Department of Psychology, University of British Columbia, Vancouver, BC, Canada</author>
+                    <author>Mikami, Amori; Department of Psychology, University of British Columbia, Vancouver, BC, Canada</author>
+                    <date>2024-04-11</date>
+                    <copyright>By submitting a work (hereinafter referred to as the “Work”) into the Cyberpsychology: Journal of Psychosocial Research on Cyberspace (https://cyberpsychology.eu/) (hereinafter referred to as the “Journal”) for the consideration for publication, the author grants the Masaryk University (hereinafter referred to as “MUNI”) a license to the Work, under the following conditions:
+                        1. Author’s Statements
+                        1.1 The author declares that the Work is free of copyright or other legal defects, it was neither published anywhere else, nor simultaneously offered for publication, except the platforms of standard scientific pre-submission communications (e.g. SSRN, ResearchGate, Academia).
+                        1.2 The author declares that he/she is the real author or the joint author of the Work and his/her freedom to grant the license is not limited or excluded, and the author is entitled to dispose of the Work, because especially, but not limited to:
+                        
+                        the Work is not an Employee work where the employee would not be entitled to exercise the rights to the Work,
+                        using of the Work within the scope of the granted license is not limited by the conditions of provided grant or other financial support
+                        using of the Work within the scope of the granted license is not limited by the third parties’ rights (e.g. copyright, the right to the protection of personal data),
+                        the Work is not the work of joint authors, where the other joint authors would not agree to grant the license.
+                        
+                        1.3 In the case that the Work is the work of joint authors, the author declares that all the joint authors have been informed of these License Terms and that he/she is authorized to grant MUNI the license under these License Terms on behalf of the joint authors.
+                        1.4 The author agrees that if the Work is accepted for publication, the proposal to conclude a license agreement for the Work will be on his/her behalf aimed at an indefinite number of persons, while the content of the agreement will be determined by reference to the publicly available licence conditions Creative Commons BY-SA 4.0 International (available from: https://creativecommons.org/licenses/by-sa/4.0/); such proposal will not be done for the works or the elements (e.g. image or photographic documentation) used by the author in the Work under a contractual license with a third party.
+                        1.5 If any of the author’s statements prove to be untrue, the author is aware that he/she is liable for the resulting damage, including the costs associated with any litigation and damage caused by a violation of the Journal’s and/or MUNI’s reputation.
+                        2. License Grant
+                        2.1 The author grants MUNI gratuitous non-exclusive license to use the Work in all the known manners of use (especially, but not limited to, reproduction, distribution and communication to public), individually, in the collection or together with any other works or elements unlimited as regards to amount and form and media of expression (including electronic).
+                        2.2 The license is granted as territorially and quantitatively unlimited.
+                        2.3 The license is granted royalty-free.
+                        2.4 The license is granted for the duration of economic rights to the Work.
+                        2.5 MUNI shall be entitled to grant an authorisation forming part of the licence to the third party or parties, in whole or in part under a sublicense agreement, with or without remuneration.
+                        2.6 By granting the license, the author agrees with including the Work into the scientific and bibliographical databases (eg. EBSCO, CEEOL) as well as information systems for providing the informational services, where the Journal is currently indexed as well as those, where it will be indexed pro futuro.
+                        2.7 MUNI shall be not obliged to make use of the license.
+                        3. Further Use of Work
+                        3.1 Given granted the non-exclusive license to the Work, the author shall be entitled to further use the Work. For the purpose of such further use of the Work, the author shall be obliged to state the Journal as the source of publication of the Work.
+                        3.2 In the case of disclosure of the Work on the platforms of standard scientific pre-submission communications within the meaning of Art. 1.1, the author shall be obliged to additionally state the Journal as the source of publication of the Work, without undue delay.
+                        3.3 The reputation of MUNI and/or Journal shall not be negatively affected by the further use of the Work.
+                        4. Varia
+                        4.1 Legal relations based on the license shall be governed by the laws of the Czech Republic; any disputes arising out of the license shall be settled by the courts of the Czech Republic.
+                        4.2 If the Work is rejected for publication in the Journal, the license shall be, at the moment of the decision of rejection, restricted in such a way that it shall cover use of Work only in the necessary extent within related editorial activities (e.g. review and archiving).</copyright>
+                    <other_access>url:https://cyberpsychology.eu/article/view/36754</other_access>
+                    <keyword></keyword>
+                    <period></period>
+                    <monitoring></monitoring>
+                    <abstract>The Bystander Intervention Model (BIM) has been validated for face-to-face emergencies and dictates that observers’ decision to intervene hinges on five sequential steps, while barriers block progress between steps. The current study is the first, to our knowledge, to apply the BIM in its entirety to cyber aggression and explore the ways that individual factors such as experiences with depression, social anxiety, and cyber aggression either as the target or the aggressor influence bystanders. In our pre-registered study, emerging adults (N = 1,093) viewed pilot-tested cyber aggressive content and reported how they would engage with each of the steps and barriers of the BIM, if they were observing this content as a bystander in real life. Regarding the actions they would take, most participants chose non-intervention (36.3%) or private direct intervention (39.4%). Path analysis suggested that overall, the BIM can explain bystanders’ responses to cyber aggression. Nonetheless, there were some discrepancies with prior work on face-to-face emergencies, specifically that cyber bystander intervention does not appear to be as linear. As well, in contrast to the face-to-face applications of the BIM that prescribes barriers to affect only a single specific step, here we found some barriers were negatively linked to multiple steps. These findings elucidate ways in which cyber aggression in the online context may be similar to, as well as different from, aggression that occurs face-to-face. Implications of these findings for interventions are discussed.</abstract>
+                </rfc1807>
+            </metadata>
+        </record>
+    </GetRecord>
+</OAI-PMH>

@@ -4,13 +4,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
     http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
-    <responseDate>2024-05-23T10:27:12Z</responseDate>
-    <request verb="GetRecord" metadataPrefix="oai_dc" identifier="oai:ojs.journals.muni.cz:article/4199">https://cyberpsychology.eu/oai</request>
+    <responseDate>2024-05-23T15:04:04Z</responseDate>
+    <request verb="GetRecord" metadataPrefix="oai_dc" identifier="oai:ojs.journals.muni.cz:article/36754">https://cyberpsychology.eu/oai</request>
     <GetRecord>
         <record>
             <header>
-                <identifier>oai:ojs.journals.muni.cz:article/4199</identifier>
-                <datestamp>2017-03-10T11:52:48Z</datestamp>
+                <identifier>oai:ojs.journals.muni.cz:article/36754</identifier>
+                <datestamp>2024-04-11T11:25:35Z</datestamp>
                 <setSpec>cyberpsychology:ART</setSpec>
             </header>
             <metadata>
@@ -20,29 +20,31 @@
                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                     xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
                     http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-                    <dc:title xml:lang="en-US">Adolescent Online Communication: Old Issues, New Intensities</dc:title>
-                    <dc:creator>Subrahmanyam, Kaveri</dc:creator>
-                    <dc:subject xml:lang="en-US">Adolescent Online Communication</dc:subject>
-                    <dc:subject xml:lang="en-US">Old Issues</dc:subject>
-                    <dc:subject xml:lang="en-US">New Intensities</dc:subject>
-                    <dc:description xml:lang="en-US">Much has been made of the new communication forms that are emerging online and of their popularity among adolescents. Are these new forms fundamentally changing adolescent behavior or are they simply providing new venues for what are “traditionally” adolescent issues? In this talk, I will present findings from studies on two different communication forms to argue that these new Internet forums are being used by adolescents to confront and deal with the changes and developmental issues that they have always faced. Because of the medium’s affordances however, we sometimes see these “old” behaviors in new intensities.</dc:description>
+                    <dc:title xml:lang="en-US">I’ll be there for you? The bystander intervention model and cyber aggression</dc:title>
+                    <dc:creator>Karasavva, Vasileia</dc:creator>
+                    <dc:creator>Mikami, Amori</dc:creator>
+                    <dc:subject xml:lang="en-US">cyber aggression</dc:subject>
+                    <dc:subject xml:lang="en-US">Bystander Intervention Model</dc:subject>
+                    <dc:subject xml:lang="en-US">helping</dc:subject>
+                    <dc:subject xml:lang="en-US">cyberbullying</dc:subject>
+                    <dc:description xml:lang="en-US">The Bystander Intervention Model (BIM) has been validated for face-to-face emergencies and dictates that observers’ decision to intervene hinges on five sequential steps, while barriers block progress between steps. The current study is the first, to our knowledge, to apply the BIM in its entirety to cyber aggression and explore the ways that individual factors such as experiences with depression, social anxiety, and cyber aggression either as the target or the aggressor influence bystanders. In our pre-registered study, emerging adults (N = 1,093) viewed pilot-tested cyber aggressive content and reported how they would engage with each of the steps and barriers of the BIM, if they were observing this content as a bystander in real life. Regarding the actions they would take, most participants chose non-intervention (36.3%) or private direct intervention (39.4%). Path analysis suggested that overall, the BIM can explain bystanders’ responses to cyber aggression. Nonetheless, there were some discrepancies with prior work on face-to-face emergencies, specifically that cyber bystander intervention does not appear to be as linear. As well, in contrast to the face-to-face applications of the BIM that prescribes barriers to affect only a single specific step, here we found some barriers were negatively linked to multiple steps. These findings elucidate ways in which cyber aggression in the online context may be similar to, as well as different from, aggression that occurs face-to-face. Implications of these findings for interventions are discussed.</dc:description>
                     <dc:publisher xml:lang="en-US">Masaryk University, Faculty of Social Studies</dc:publisher>
-                    <dc:date>2007-11-01</dc:date>
+                    <dc:date>2024-04-11</dc:date>
                     <dc:type>info:eu-repo/semantics/article</dc:type>
                     <dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
                     <dc:type xml:lang="en-US">research articles</dc:type>
-                    <dc:format>text/html</dc:format>
-                    <dc:identifier>https://cyberpsychology.eu/article/view/4199</dc:identifier>
-                    <dc:source xml:lang="cs-CZ">Cyberpsychology: Journal of Psychosocial Research on Cyberspace; Vol 1 No 1 (2007)</dc:source>
-                    <dc:source xml:lang="en-US">Cyberpsychology: Journal of Psychosocial Research on Cyberspace; Vol. 1 No. 1 (2007)</dc:source>
+                    <dc:format>application/pdf</dc:format>
+                    <dc:identifier>https://cyberpsychology.eu/article/view/36754</dc:identifier>
+                    <dc:identifier>10.5817/CP2024-2-1</dc:identifier>
+                    <dc:source xml:lang="cs-CZ">Cyberpsychology: Journal of Psychosocial Research on Cyberspace; Vol 18 No 2 (2024)</dc:source>
+                    <dc:source xml:lang="en-US">Cyberpsychology: Journal of Psychosocial Research on Cyberspace; Vol. 18 No. 2 (2024)</dc:source>
                     <dc:source>1802-7962</dc:source>
                     <dc:language>eng</dc:language>
-                    <dc:relation>https://cyberpsychology.eu/article/view/4199/3235</dc:relation>
-                    <dc:rights xml:lang="en-US">Copyright © 2007 Cyberpsychology: Journal of Psychosocial Research on Cyberspace</dc:rights>
-                    <dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by-nc-nd/4.0</dc:rights>
+                    <dc:relation>https://cyberpsychology.eu/article/view/36754/32534</dc:relation>
+                    <dc:rights xml:lang="en-US">Copyright © 2024 Vasileia Karasavva, Amori Mikami</dc:rights>
+                    <dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by-sa/4.0</dc:rights>
                 </oai_dc:dc>
             </metadata>
         </record>
     </GetRecord>
 </OAI-PMH>
-

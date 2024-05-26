@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://cyberpsychology.eu/lib/pkp/xml/oai2.xsl" ?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+    http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2024-05-23T13:50:32Z</responseDate>
+    <request verb="GetRecord" metadataPrefix="oai_marc" identifier="oai:ojs.journals.muni.cz:article/36754">https://cyberpsychology.eu/oai</request>
+    <GetRecord>
+        <record>
+            <header>
+                <identifier>oai:ojs.journals.muni.cz:article/36754</identifier>
+                <datestamp>2024-04-11T11:25:35Z</datestamp>
+                <setSpec>cyberpsychology:ART</setSpec>
+            </header>
+            <metadata>
+                <oai_marc status="c" type="a" level="m" encLvl="3" catForm="u"
+                    xmlns="http://www.openarchives.org/OAI/1.1/oai_marc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://www.openarchives.org/OAI/1.1/oai_marc http://www.openarchives.org/OAI/1.1/oai_marc.xsd">
+                    <fixfield id="008">"240411 2024                        eng  "</fixfield>
+                    <varfield id="022" i1="#" i2="#">
+                        <subfield label="$a">1802-7962</subfield>
+                    </varfield>
+                    <varfield id="042" i1=" " i2=" ">
+                        <subfield label="a">dc</subfield>
+                    </varfield>
+                    <varfield id="245" i1="0" i2="0">
+                        <subfield label="a">I’ll be there for you? The bystander intervention model and cyber aggression</subfield>
+                    </varfield>
+                    
+                    <varfield id="720" i1="1" i2=" ">
+                        <subfield label="a">Karasavva, Vasileia</subfield>
+                        <subfield label="u">Department of Psychology, University of British Columbia, Vancouver, BC, Canada</subfield>						<subfield label="0">https://orcid.org/0000-0003-0778-8454</subfield>		</varfield>
+                    <varfield id="720" i1="1" i2=" ">
+                        <subfield label="a">Mikami, Amori</subfield>
+                        <subfield label="u">Department of Psychology, University of British Columbia, Vancouver, BC, Canada</subfield>			<subfield label="0">https://peerlab.psych.ubc.ca/</subfield>			<subfield label="0">https://orcid.org/0000-0001-5821-0674</subfield>		</varfield>
+                    <varfield id="520" i1=" " i2=" ">
+                        <subfield label="a">
+                            The Bystander Intervention Model (BIM) has been validated for face-to-face emergencies and dictates that observers’ decision to intervene hinges on five sequential steps, while barriers block progress between steps. The current study is the first, to our knowledge, to apply the BIM in its entirety to cyber aggression and explore the ways that individual factors such as experiences with depression, social anxiety, and cyber aggression either as the target or the aggressor influence bystanders. In our pre-registered study, emerging adults (N = 1,093) viewed pilot-tested cyber aggressive content and reported how they would engage with each of the steps and barriers of the BIM, if they were observing this content as a bystander in real life. Regarding the actions they would take, most participants chose non-intervention (36.3%) or private direct intervention (39.4%). Path analysis suggested that overall, the BIM can explain bystanders’ responses to cyber aggression. Nonetheless, there were some discrepancies with prior work on face-to-face emergencies, specifically that cyber bystander intervention does not appear to be as linear. As well, in contrast to the face-to-face applications of the BIM that prescribes barriers to affect only a single specific step, here we found some barriers were negatively linked to multiple steps. These findings elucidate ways in which cyber aggression in the online context may be similar to, as well as different from, aggression that occurs face-to-face. Implications of these findings for interventions are discussed.
+                        </subfield>
+                    </varfield>
+                    <varfield id="260" i1=" " i2=" ">
+                        <subfield label="b">Masaryk University, Faculty of Social Studies</subfield>
+                    </varfield>
+                    <varfield id="260" i1=" " i2=" ">
+                        <subfield label="c">2024-04-11 00:00:00</subfield>
+                    </varfield>
+                    
+                    <varfield id="655" i1=" " i2="7">
+                        <subfield label="a">research articles</subfield>
+                    </varfield>
+                    <varfield id="856" i1=" " i2=" ">
+                        <subfield label="q">application/pdf</subfield>
+                    </varfield>
+                    <varfield id="856" i1="4" i2="0">
+                        <subfield label="u">https://cyberpsychology.eu/article/view/36754</subfield>
+                    </varfield>
+                    
+                    <varfield id="786" i1="0" i2=" ">
+                        <subfield label="n">Cyberpsychology: Journal of Psychosocial Research on Cyberspace; Vol. 18 No. 2 (2024)</subfield>
+                    </varfield>
+                    
+                    <varfield id="546" i1=" " i2=" ">
+                        <subfield label="a">eng</subfield>
+                    </varfield>
+                    
+                    
+                    <varfield id="540" i1=" " i2=" ">
+                        <subfield label="a">Copyright © 2024 Vasileia Karasavva, Amori Mikami</subfield>
+                    </varfield>
+                </oai_marc>
+            </metadata>
+        </record>
+    </GetRecord>
+</OAI-PMH>
+
+
