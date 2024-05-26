@@ -16,7 +16,7 @@
             <xs:sequence> </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="back" type="xs:string" default="text"/>
+        <xs:element name="back" type="xs:string" fixed="text"/>
       </xs:sequence>
       <xs:attribute name="article-type" type="xs:string" use="required"/>
     </xs:complexType>
