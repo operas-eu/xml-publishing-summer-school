@@ -14,7 +14,12 @@
                 <setSpec>cyberpsychology:ART</setSpec>
             </header>
             <metadata>                
-                <article dtd-version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://jats.nlm.nih.gov/publishing/0.4/xsd/JATS-journalpublishing0.xsd">
+                <article 
+                    xmlns="https://jats.nlm.nih.gov"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" 
+                    xmlns:mml="http://www.w3.org/1998/Math/MathML" 
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xsi:SchemaLocation="https://jats.nlm.nih.gov https://jats.nlm.nih.gov/publishing/0.4/xsd/JATS-journalpublishing0.xsd">
                     <front>
                         <journal-meta>
                             <journal-id journal-id-type="ojs">cyberpsychology</journal-id>
