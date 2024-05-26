@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<article  xmlns="https://www.w3schools.com"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-        	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        	xsi:schemaLocation="https://www.google.com schema1-simple.xsd"
-        	>
+<article  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://raw.githubusercontent.com https://raw.githubusercontent.com/phoenix-mossimo/xml-publishing-summer-school/main/JATS%20SRCE/schema1-simple.xsd"
+  article-type="research-article"
+  >
   <front>
     <journal-meta>
-      <journal-idss journal-id-type="doi">DOI-1234</journal-idss>
+      <journal-id journal-id-type="doi">DOI-1234</journal-id>
       <journal-id journal-id-type="nlm-ta">J Biol. Chem.</journal-id>
       <journal-id journal-id-type="publisher-id">MOLCEL</journal-id>
       <journal-title-group>
