@@ -2,11 +2,11 @@
 <article  xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.w3schools.com sample.xsd"
-  article-type="research-article"
-  >
+  article-type="research-article" >
   <front>Text1</front>
   <body>
-    <graphic></graphic>
+    <graphic>
+    </graphic>
   </body>
   <back>text</back>
 </article>
