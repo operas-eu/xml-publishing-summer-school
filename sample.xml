@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <article  xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.w3schools.com schema1-simple.xsd"
+  xsi:schemaLocation="http://www.w3schools.com sample.xsd"
   article-type="research-article"
   >
   <front>Text1</front>
