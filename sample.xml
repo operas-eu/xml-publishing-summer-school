@@ -1,24 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<shiporder 	orderid="889923"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="sample.xsd">
-    <orderperson>John Smith</orderperson>
-    <shipto>
-        <name>Ola Nordmann</name>
-        <address>Langgt 23</address>
-        <city>4000 Stavanger</city>
-        <country>Norway</country>
-    </shipto>
-    <item>
-        <title>Empire Burlesque</title>
-        <note>Special Edition</note>
-        <quantity>1</quantity>
-        <price>10.90</price>
-    </item>
-    <item>
-        <title>Hide your heart</title>
-        <quantity>1</quantity>
-        <price>9.90</price>
-    </item>
-</shiporder>
+<?xml version="1.0" encoding="utf-8"?>
+<article  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.w3schools.com schema1-simple.xsd"
+  article-type="research-article"
+  >
+  <front>Text1</front>
+  <body>
+    <graphic></graphic>
+  </body>
+  <back>text</back>
+</article>
