@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="article">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element name="front" type="xs:string"/>                
+                <xs:element name="body" type="xs:string" />
+                <xs:element name="back" type="xs:string" default="text"/>
+            </xs:sequence>
+            <xs:attribute name="article-type" type="xs:string" use="required" fixed="research-article"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
