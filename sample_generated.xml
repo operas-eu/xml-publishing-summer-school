@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <article  xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.w3schools.com sample.xsd"
+  xsi:schemaLocation="http://www.w3schools.com sample_generated.xsd"
   article-type="research-article"
   >
-  <front>Text1</front>
-  <body id="1">Text
-    <p>Text2</p>
-  </body>
-  <back>Text3</back>
+  <front>text1</front>
+  <body>text2</body>
+  <back>text3</back>
 </article>

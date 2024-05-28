@@ -13,16 +13,17 @@
             </xs:restriction>
           </xs:simpleType>
         </xs:element>
-        <xs:element name="body" minOccurs="1">
-          <xs:complexType>
+        <xs:element name="body" minOccurs="1" >
+          <xs:complexType mixed="true">
             <xs:choice>
               <xs:element name="title" type="xs:string" maxOccurs="1"/>
               <xs:element name="p" maxOccurs="unbounded"/>
               <xs:element name="graphic"/>
             </xs:choice>
+            <xs:attribute name="id" type="xs:integer"/>
           </xs:complexType>
         </xs:element>
-        <xs:element name="back" type="xs:string" fixed="text"/>
+        <xs:element name="back" type="xs:string" fixed="Text3"/>
       </xs:sequence>
       <xs:attribute name="article-type" type="xs:string" use="required" fixed="research-article"/>
     </xs:complexType>
