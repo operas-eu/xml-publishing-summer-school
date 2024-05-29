@@ -7,3 +7,7 @@ Documents for the CRAFT-OA summer school for journal editors
 - DOCX to JATS XML Converter (by SRCE): https://jats.srce.hr/
 - TEI Publisher: https://teipublisher.com/
 - The School of Salamanca: https://www.salamanca.school/
+
+- MARC21:https://cyberpsychology.eu/oai?verb=GetRecord&metadataPrefix=marcxml&identifier=oai:ojs.journals.muni.cz:article/36754   
+- MARC:https://cyberpsychology.eu/oai?verb=GetRecord&metadataPrefix=oai_marc&identifier=oai:ojs.journals.muni.cz:article/36754  
+- OPENAIRE: https://cyberpsychology.eu/oai?verb=GetRecord&metadataPrefix=oai_openaire&identifier=oai:ojs.journals.muni.cz:article/36754 
